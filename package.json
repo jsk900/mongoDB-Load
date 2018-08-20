@@ -1,0 +1,28 @@
+{
+  "name": "mongodb-load",
+  "version": "1.0.0",
+  "description": "Load Book data from google books API into MoongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsk900/mongoDB-Load.git"
+  },
+  "author": "Joseph Urbina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsk900/mongoDB-Load/issues"
+  },
+  "homepage": "https://github.com/jsk900/mongoDB-Load#readme",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.9",
+    "node-fetch": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
