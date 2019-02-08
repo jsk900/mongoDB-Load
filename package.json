@@ -19,7 +19,8 @@
   "dependencies": {
     "assert": "^1.4.1",
     "express": "^4.16.3",
-    "mongoose": "^5.2.9",
+    "mongoose": "^5.4.10",
+    "mpath": "^0.5.1",
     "node-fetch": "^2.2.0"
   },
   "devDependencies": {
